@@ -1,0 +1,155 @@
+body {
+  width: 1000px;
+  margin: 0% auto;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  position: relative; }
+  header nav {
+    position: absolute;
+    bottom: 36px;
+    right: 0px;
+    text-align: center;
+    padding: 22px 0 16px 0;
+    margin-right: 15px;
+    width: 575px;
+    border: 1.25px #617d8a;
+    border-style: solid hidden;
+    height: fit-content; }
+    header nav a {
+      font-size: 1em;
+      display: inline-block;
+      letter-spacing: -0.5px;
+      color: #1fbcd3;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 185px; }
+      header nav a:hover {
+        transition: 1s;
+        text-shadow: 1px 1px 2px #617d8a; }
+
+.toolbar {
+  margin: 15px 10px 20px 0;
+  text-align: right; }
+  .toolbar input {
+    background-color: white;
+    font-size: 14px;
+    border: 1.25px solid #1fbcd3;
+    padding: 5px 0 3px 19px;
+    height: 28px;
+    width: 178px; }
+    .toolbar input::placeholder {
+      color: #1fbcd3; }
+
+.logo {
+  max-width: 365px; }
+  .logo img {
+    width: 100%;
+    overflow: hidden; }
+
+#list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 10px; }
+  #list article {
+    font-size: 1em;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 440px;
+    max-height: fit-content;
+    background-color: #efefef;
+    line-height: line-height; }
+    #list article:nth-child(even) {
+      margin-left: auto;
+      margin-right: 0px; }
+    #list article img {
+      max-width: 100%;
+      overflow: hidden; }
+    #list article .post-description {
+      color: #159587;
+      margin: 0 15px 7px 15px;
+      font-size: 13px; }
+    #list article h3 {
+      letter-spacing: -0.25px;
+      color: #1fbcd3;
+      text-transform: uppercase;
+      border-top: 1px solid #617d8a;
+      margin: 0 10px;
+      padding-top: 5px;
+      line-height: 1.6; }
+    #list article p {
+      color: #617d8a;
+      margin: 0 10px 20px 10px; }
+
+#about {
+  font-size: 1em;
+  line-height: line-height; }
+  #about h1 {
+    letter-spacing: -1px;
+    color: #1fbcd3;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 62px 15px -5px 0; }
+  #about p {
+    color: #617d8a;
+    margin: 0 17px 20px 15px; }
+  #about div:nth-child(2) {
+    margin: 0 15px; }
+    #about div:nth-child(2) img {
+      width: 100%;
+      margin-bottom: 38px;
+      overflow: hidden; }
+
+#contact {
+  font-size: 1em;
+  margin-top: 10px;
+  color: #1fbcd3;
+  text-align: right;
+  text-transform: uppercase; }
+  #contact h1 {
+    margin-bottom: 2px; }
+  #contact h4 {
+    margin-top: 2px;
+    margin-bottom: 25px; }
+  #contact form input, #contact form textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 15.5px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1.25px solid #617d8a;
+    padding: 15px 0 14px 20px;
+    margin-top: 1px;
+    margin-bottom: 18px; }
+  #contact form textarea {
+    padding-top: 11px;
+    padding-bottom: 0;
+    margin-bottom: 14px; }
+  #contact form #send {
+    color: white;
+    font-size: 14px;
+    background-color: #1fbcd3;
+    text-transform: uppercase;
+    width: 200px;
+    height: 39px;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-color: transparent; }
+    #contact form #send:hover {
+      background-color: #2cc9e0; }
+    #contact form #send:active {
+      background-color: #1ca8bd; }
+
+footer span {
+  color: #617d8a;
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  padding-left: 2px; }
